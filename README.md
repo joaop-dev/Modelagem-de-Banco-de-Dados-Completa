@@ -236,7 +236,7 @@ WHERE ID_Emprestimo = 1;
 1 - Listar todos os livros com suas categorias:
 
 ```sql
-SELECT Livro.Título, Categoria.Nome AS Categoria
+SELECT Livro.Titulo, Categoria.Nome AS Categoria
 FROM Livro
 JOIN Categoria ON Livro.Categoria_ID = Categoria.ID_Categoria;
 ```
